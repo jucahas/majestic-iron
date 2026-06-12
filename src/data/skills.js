@@ -1,34 +1,42 @@
 export const skills = [
   {
+    icon: "🐍",
     name: "Python",
     description: "Automatización y scripting."
   },
   {
+    icon: "🐧",
     name: "Linux",
-    description: "Sistemas y networking."
+    description: "Administración de sistemas y networking."
   },
   {
+    icon: "🐳",
     name: "Docker",
-    description: "Contenedores y entornos."
+    description: "Contenedores y despliegue de aplicaciones."
   },
   {
+    icon: "🌿",
     name: "Git",
-    description: "Control de versiones."
+    description: "Control de versiones y trabajo colaborativo."
   },
   {
+    icon: "🚀",
     name: "Astro",
-    description: "Frontend moderno y rápido."
+    description: "Desarrollo web moderno y rápido."
   },
   {
-    name: "Tailwind",
-    description: "UI moderna y responsive."
+    icon: "🎨",
+    name: "TailwindCSS",
+    description: "Diseño responsive y componentes modernos."
   },
   {
+    icon: "🌐",
     name: "Networking",
-    description: "Redes y telecomunicaciones."
+    description: "Redes, telecomunicaciones y protocolos."
   },
   {
+    icon: "📡",
     name: "IoT",
-    description: "Smart Home y automatización."
+    description: "Internet de las Cosas y sistemas inteligentes."
   }
 ];

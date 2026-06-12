@@ -2,26 +2,52 @@
 import { skills } from "../data/skills.js";
 ---
 
-<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<section
+  id="skills"
+  class="px-6 py-24"
+>
+  <div class="max-w-6xl mx-auto">
 
-  {
-    skills.map((skill) => (
+    <p class="text-cyan-400 uppercase tracking-[0.3em] mb-4 text-center">
+      Habilidades
+    </p>
 
-      <div
-        class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition"
-      >
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-6">
+      Tecnologías y Competencias
+    </h2>
 
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          {skill.name}
-        </h3>
+    <p class="text-zinc-400 text-lg text-center max-w-3xl mx-auto mb-12">
+      Algunas de las tecnologías y áreas en las que he trabajado durante mi
+      formación en Ingeniería Civil Telemática y en proyectos personales.
+    </p>
 
-        <p class="text-zinc-400 text-sm">
-          {skill.description}
-        </p>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
 
-      </div>
+      {
+        skills.map((skill) => (
 
-    ))
-  }
+          <div
+            class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:shadow-xl hover:-translate-y-1 transition duration-300"
+          >
 
-</div>
+            <div class="text-4xl mb-4">
+              {skill.icon}
+            </div>
+
+            <h3 class="text-cyan-400 text-xl font-bold mb-2">
+              {skill.name}
+            </h3>
+
+            <p class="text-zinc-400 text-sm">
+              {skill.description}
+            </p>
+
+          </div>
+
+        ))
+      }
+
+    </div>
+
+  </div>
+</section>

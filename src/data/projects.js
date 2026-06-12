@@ -1,21 +1,43 @@
 export const projects = [
   {
+    title: "Portfolio Web",
+    subtitle: "Astro + TailwindCSS",
+    description:
+      "Desarrollo de un portafolio personal moderno utilizando Astro, TailwindCSS y GitHub para mostrar proyectos, habilidades y experiencia académica.",
+    technologies: ["Astro", "TailwindCSS", "Git", "GitHub"],
+    github: "https://github.com/jucahas/majestic-iron",
+    demo: "#",
+    color: "cyan"
+  },
+
+  {
     title: "IoT Home+",
     subtitle: "Smart Home + IoT",
     description:
-      "Simulación de un sistema inteligente orientado al monitoreo de adultos mayores mediante IoT y automatización del hogar.",
-    technologies: ["IoT", "Networking", "Simulation"],
+      "Diseño y simulación de una plataforma inteligente para monitoreo y asistencia de adultos mayores mediante sensores IoT y automatización residencial.",
+    technologies: ["IoT", "Networking", "Cloud"],
+    github: "#",
+    demo: "#",
+    color: "purple"
+  },
+
+  {
+    title: "INF236",
+    subtitle: "Análisis y Diseño de Software",
+    description:
+      "Diseño arquitectónico y modelado de sistemas de software utilizando patrones de diseño, UML y principios de ingeniería de software.",
+    technologies: ["UML", "Software Design", "Architecture"],
     github: "#",
     demo: "#",
     color: "cyan"
   },
 
   {
-    title: "Portfolio Web",
-    subtitle: "Portfolio con Astro",
+    title: "TEL231",
+    subtitle: "Sistemas de Telecomunicaciones",
     description:
-      "Desarrollo de un portfolio profesional utilizando Astro, TailwindCSS y GitHub.",
-    technologies: ["Astro", "Tailwind", "Frontend"],
+      "Simulaciones y análisis de técnicas de modulación AM, FM y PM utilizando MATLAB y herramientas de telecomunicaciones.",
+    technologies: ["MATLAB", "AM", "FM", "PM"],
     github: "#",
     demo: "#",
     color: "purple"

@@ -1,46 +1,118 @@
-# Astro Starter Kit: Basics
+# 🚀 Juan Gutiérrez | Portfolio Web
 
-```sh
-npm create astro@latest -- --template basics
-```
+Portfolio personal desarrollado con Astro y TailwindCSS para presentar proyectos, habilidades e intereses relacionados con Ingeniería Civil Telemática, desarrollo de software, redes e Internet de las Cosas (IoT).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📌 Objetivos
 
-## 🚀 Project Structure
+Este proyecto tiene como propósito:
 
-Inside of your Astro project, you'll see the following folders and files:
+* Mostrar proyectos académicos y personales.
+* Presentar habilidades técnicas y tecnologías utilizadas.
+* Servir como portafolio profesional para prácticas, ayudantías y futuras oportunidades laborales.
+* Aprender y aplicar tecnologías modernas de desarrollo web.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* Astro
+* TailwindCSS
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+
+---
+
+## 📂 Estructura del proyecto
 
 ```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+src/
+├── components/
+│   ├── Navbar.astro
+│   ├── Hero.astro
+│   ├── About.astro
+│   ├── Skills.astro
+│   ├── Projects.astro
+│   ├── Contact.astro
+│   └── Footer.astro
+│
+├── pages/
+│   └── index.astro
+│
+├── styles/
+│   └── global.css
+│
+└── assets/
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## 🚀 Ejecución local
 
-All commands are run from the root of the project, from a terminal:
+Clonar el repositorio:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+git clone https://github.com/jucahas/majestic-iron.git
+```
 
-## 👀 Want to learn more?
+Ingresar al proyecto:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```bash
+cd majestic-iron
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Iniciar servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Abrir en el navegador:
+
+```text
+http://localhost:4321
+```
+
+---
+
+## 📖 Secciones actuales
+
+* Hero
+* Sobre mí
+* Skills
+* Proyectos
+* Contacto
+* Footer
+
+---
+
+## 🔮 Mejoras futuras
+
+* Integración con GitHub API.
+* Animaciones y efectos visuales.
+* Íconos de tecnologías.
+* Blog técnico.
+* SEO.
+* Despliegue en Vercel.
+* Dominio personalizado.
+
+---
+
+## 👨‍💻 Autor
+
+Juan Gutiérrez
+
+Estudiante de Ingeniería Civil Telemática.
+
+GitHub: https://github.com/jucahas
+
+```
+```

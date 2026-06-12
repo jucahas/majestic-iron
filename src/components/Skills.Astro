@@ -1,137 +1,27 @@
-<section
-  id="skills"
-  class="min-h-screen flex items-center justify-center px-6 py-24"
->
-  <div class="max-w-6xl w-full">
+---
+import { skills } from "../data/skills.js";
+---
 
-    <!-- Título -->
-    <div class="text-center mb-16">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
 
-      <p class="text-cyan-400 uppercase tracking-[0.3em] mb-4">
-        Skills
-      </p>
+  {
+    skills.map((skill) => (
 
-      <h2 class="text-4xl md:text-5xl font-bold mb-6">
-        Tecnologías y herramientas
-      </h2>
-
-      <p class="text-zinc-400 text-lg max-w-2xl mx-auto">
-        Tecnologías que he utilizado en proyectos académicos,
-        desarrollo web, redes y automatización.
-      </p>
-
-    </div>
-
-    <!-- Grid -->
-    <div
-      class="grid grid-cols-2 md:grid-cols-4 gap-6"
-    >
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
+      <div
+        class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition"
+      >
 
         <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Python
+          {skill.name}
         </h3>
 
         <p class="text-zinc-400 text-sm">
-          Automatización y scripting.
+          {skill.description}
         </p>
 
       </div>
 
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
+    ))
+  }
 
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Linux
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          Sistemas y networking.
-        </p>
-
-      </div>
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
-
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Docker
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          Contenedores y entornos.
-        </p>
-
-      </div>
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
-
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Git
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          Control de versiones.
-        </p>
-
-      </div>
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
-
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Astro
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          Frontend moderno y rápido.
-        </p>
-
-      </div>
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
-
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Tailwind
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          UI moderna y responsive.
-        </p>
-
-      </div>
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
-
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          Networking
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          Redes y telecomunicaciones.
-        </p>
-
-      </div>
-
-      <!-- Skill -->
-      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-400 hover:-translate-y-1 transition">
-
-        <h3 class="text-cyan-400 text-xl font-bold mb-2">
-          IoT
-        </h3>
-
-        <p class="text-zinc-400 text-sm">
-          Smart Home y automatización.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
+</div>

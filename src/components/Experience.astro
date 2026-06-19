@@ -1,0 +1,57 @@
+---
+import { experiences } from "../data/Experience.js";
+---
+
+<section
+  id="experience"
+  class="px-6 py-24"
+>
+  <div class="max-w-6xl mx-auto">
+
+    <div class="text-center mb-16">
+
+      <p class="text-cyan-400 uppercase tracking-[0.3em] mb-4">
+        Experiencia Docente
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Ayudantías
+      </h2>
+
+      <p class="text-zinc-400 max-w-3xl mx-auto">
+        Participación como ayudante académico en asignaturas relacionadas con
+        sistemas operativos, redes y ciberseguridad.
+      </p>
+
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      {
+        experiences.map((experience) => (
+
+          <div
+            class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:shadow-xl transition duration-300"
+          >
+
+            <span class="text-cyan-400 font-bold">
+              {experience.code}
+            </span>
+
+            <h3 class="text-2xl font-bold mt-3 mb-4">
+              {experience.title}
+            </h3>
+
+            <p class="text-zinc-400">
+              {experience.description}
+            </p>
+
+          </div>
+
+        ))
+      }
+
+    </div>
+
+  </div>
+</section>

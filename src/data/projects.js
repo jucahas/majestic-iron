@@ -1,11 +1,16 @@
 export const projects = [
   {
-    title: "Portfolio Web",
-    subtitle: "Astro + TailwindCSS",
+    title: "Banking Platform",
+    subtitle: "Plataforma de Créditos de Consumo",
     description:
-      "Desarrollo de un portafolio personal moderno utilizando Astro, TailwindCSS y GitHub para mostrar proyectos, habilidades y experiencia académica.",
-    technologies: ["Astro", "TailwindCSS", "Git", "GitHub"],
-    github: "https://github.com/jucahas/majestic-iron",
+      "Proyecto desarrollado en Ingeniería de Software (INF225) para facilitar la solicitud y evaluación de créditos de consumo mediante una plataforma bancaria online, evitando la necesidad de acudir presencialmente a una sucursal.",
+    technologies: [
+      "Software Engineering",
+      "Architecture",
+      "UML",
+      "Web"
+    ],
+    github: "#",
     demo: "#",
     color: "cyan"
   },
@@ -14,32 +19,29 @@ export const projects = [
     title: "IoT Home+",
     subtitle: "Smart Home + IoT",
     description:
-      "Diseño y simulación de una plataforma inteligente para monitoreo y asistencia de adultos mayores mediante sensores IoT y automatización residencial.",
-    technologies: ["IoT", "Networking", "Cloud"],
+      "Proyecto desarrollado en Seminario de Telemática I, orientado al monitoreo de adultos mayores mediante sensores IoT, automatización del hogar y gestión de eventos en tiempo real.",
+    technologies: [
+      "IoT",
+      "Networking",
+      "Automation"
+    ],
     github: "#",
     demo: "#",
     color: "purple"
   },
 
   {
-    title: "INF236",
-    subtitle: "Análisis y Diseño de Software",
+    title: "Portfolio Web",
+    subtitle: "Portfolio con Astro",
     description:
-      "Diseño arquitectónico y modelado de sistemas de software utilizando patrones de diseño, UML y principios de ingeniería de software.",
-    technologies: ["UML", "Software Design", "Architecture"],
-    github: "#",
+      "Desarrollo de un portfolio profesional utilizando Astro, TailwindCSS y GitHub para presentar proyectos, experiencia académica y habilidades técnicas.",
+    technologies: [
+      "Astro",
+      "Tailwind",
+      "Frontend"
+    ],
+    github: "https://github.com/jucahas/majestic-iron",
     demo: "#",
     color: "cyan"
-  },
-
-  {
-    title: "TEL231",
-    subtitle: "Sistemas de Telecomunicaciones",
-    description:
-      "Simulaciones y análisis de técnicas de modulación AM, FM y PM utilizando MATLAB y herramientas de telecomunicaciones.",
-    technologies: ["MATLAB", "AM", "FM", "PM"],
-    github: "#",
-    demo: "#",
-    color: "purple"
   }
 ];

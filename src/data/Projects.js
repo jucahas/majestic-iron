@@ -2,13 +2,14 @@ export const projects = [
   {
     title: "Banking Platform",
     subtitle: "Plataforma de Créditos de Consumo",
+    status: "En desarrollo",
     description:
-      "Proyecto desarrollado en Ingeniería de Software (INF225) para facilitar la solicitud y evaluación de créditos de consumo mediante una plataforma bancaria online, evitando la necesidad de acudir presencialmente a una sucursal.",
+      "Proyecto desarrollado en Ingeniería de Software (INF225) enfocado en la digitalización del proceso de solicitud y evaluación de créditos de consumo mediante una plataforma bancaria online.",
     technologies: [
       "Software Engineering",
       "Architecture",
       "UML",
-      "Web"
+      "Web Development"
     ],
     github: "#",
     demo: "#",
@@ -18,8 +19,9 @@ export const projects = [
   {
     title: "IoT Home+",
     subtitle: "Smart Home + IoT",
+    status: "Académico",
     description:
-      "Proyecto desarrollado en Seminario de Telemática I, orientado al monitoreo de adultos mayores mediante sensores IoT, automatización del hogar y gestión de eventos en tiempo real.",
+      "Proyecto desarrollado en Seminario de Telemática I orientado al monitoreo de adultos mayores mediante sensores IoT, automatización del hogar y gestión de eventos en tiempo real.",
     technologies: [
       "IoT",
       "Networking",
@@ -32,16 +34,17 @@ export const projects = [
 
   {
     title: "Portfolio Web",
-    subtitle: "Portfolio con Astro",
+    subtitle: "Portfolio Profesional",
+    status: "En desarrollo",
     description:
-      "Desarrollo de un portfolio profesional utilizando Astro, TailwindCSS y GitHub para presentar proyectos, experiencia académica y habilidades técnicas.",
+      "Portfolio personal desarrollado con Astro y TailwindCSS para presentar proyectos, experiencia académica, ayudantías y habilidades técnicas.",
     technologies: [
       "Astro",
-      "Tailwind",
+      "TailwindCSS",
       "Frontend"
     ],
     github: "https://github.com/jucahas/majestic-iron",
-    demo: "#",
+    demo: "https://majestic-iron-xa8n.vercel.app",
     color: "cyan"
   }
 ];

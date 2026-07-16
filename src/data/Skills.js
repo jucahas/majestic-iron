@@ -2,17 +2,17 @@ export const skills = [
   {
     icon: "🐍",
     name: "Python",
-    description: "Automatización y scripting."
+    description: "Automatización, scripting y desarrollo de aplicaciones."
   },
   {
     icon: "🐧",
     name: "Linux",
-    description: "Administración de sistemas y networking."
+    description: "Administración de sistemas, servidores y networking."
   },
   {
     icon: "🐳",
     name: "Docker",
-    description: "Contenedores y despliegue de aplicaciones."
+    description: "Contenedores y despliegue de servicios."
   },
   {
     icon: "🌿",
@@ -22,21 +22,21 @@ export const skills = [
   {
     icon: "🚀",
     name: "Astro",
-    description: "Desarrollo web moderno y rápido."
+    description: "Desarrollo web moderno y optimizado."
   },
   {
     icon: "🎨",
     name: "TailwindCSS",
-    description: "Diseño responsive y componentes modernos."
-  },
-  {
-    icon: "🌐",
-    name: "Networking",
-    description: "Redes, telecomunicaciones y protocolos."
+    description: "Interfaces responsivas y diseño moderno."
   },
   {
     icon: "📡",
-    name: "IoT",
-    description: "Internet de las Cosas y sistemas inteligentes."
+    name: "Telecomunicaciones",
+    description: "Señales, comunicaciones digitales y transmisión de datos."
+  },
+  {
+    icon: "🌐",
+    name: "Redes",
+    description: "Protocolos, routing, switching y seguridad de redes."
   }
 ];

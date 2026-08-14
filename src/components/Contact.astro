@@ -1,3 +1,11 @@
+---
+import {
+  Code2,
+  BriefcaseBusiness,
+  Mail,
+} from "@lucide/astro";
+---
+
 <section
   id="contact"
   class="px-6 py-24"
@@ -28,8 +36,13 @@
         rel="noopener noreferrer"
         class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
       >
+
+        <div class="flex justify-center mb-4">
+          <Code2 size={42} class="text-cyan-400" />
+        </div>
+
         <h3 class="text-cyan-400 text-2xl font-bold mb-3">
-          💻 GitHub
+          GitHub
         </h3>
 
         <div class="w-12 h-1 bg-cyan-400 rounded-full mx-auto mb-4"></div>
@@ -37,6 +50,7 @@
         <p class="text-zinc-400">
           Repositorios, proyectos y contribuciones.
         </p>
+
       </a>
 
       <!-- LinkedIn -->
@@ -46,8 +60,13 @@
         rel="noopener noreferrer"
         class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
       >
+
+        <div class="flex justify-center mb-4">
+          <BriefcaseBusiness size={42} class="text-cyan-400" />
+        </div>
+
         <h3 class="text-cyan-400 text-2xl font-bold mb-3">
-          💼 LinkedIn
+          LinkedIn
         </h3>
 
         <div class="w-12 h-1 bg-cyan-400 rounded-full mx-auto mb-4"></div>
@@ -55,6 +74,7 @@
         <p class="text-zinc-400">
           Perfil profesional y trayectoria académica.
         </p>
+
       </a>
 
       <!-- Email -->
@@ -62,8 +82,13 @@
         href="mailto:juan.gutierrez.14@sansano.usm.cl"
         class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 hover:border-cyan-400 hover:shadow-cyan-500/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
       >
+
+        <div class="flex justify-center mb-4">
+          <Mail size={42} class="text-cyan-400" />
+        </div>
+
         <h3 class="text-cyan-400 text-2xl font-bold mb-3">
-          📧 Email
+          Email
         </h3>
 
         <div class="w-12 h-1 bg-cyan-400 rounded-full mx-auto mb-4"></div>
@@ -71,6 +96,7 @@
         <p class="text-zinc-400">
           Contacto directo para consultas y colaboración.
         </p>
+
       </a>
 
     </div>

@@ -1,5 +1,11 @@
 ---
 import profile from "../assets/profile.avif";
+
+import {
+  Code2,
+  BriefcaseBusiness,
+  FileText,
+} from "@lucide/astro";
 ---
 
 <section
@@ -54,8 +60,9 @@ import profile from "../assets/profile.avif";
           href="https://github.com/jucahas"
           target="_blank"
           rel="noopener noreferrer"
-          class="hover:text-cyan-400 transition-all duration-300"
+          class="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300"
         >
+          <Code2 size={18} />
           GitHub
         </a>
 
@@ -63,19 +70,23 @@ import profile from "../assets/profile.avif";
           href="https://www.linkedin.com/in/juan-gutiérrez-astudillo-131373171"
           target="_blank"
           rel="noopener noreferrer"
-          class="hover:text-cyan-400 transition-all duration-300"
+          class="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300"
         >
+          <BriefcaseBusiness size={18} />
           LinkedIn
         </a>
 
         <a
           href="/cv.pdf"
-          class="hover:text-cyan-400 transition-all duration-300"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-2 hover:text-cyan-400 transition-all duration-300"
         >
+          <FileText size={18} />
           CV
         </a>
 
-      </div>
+</div>
 
     </div>
 
